@@ -1,0 +1,76 @@
+*{
+	box-sizing: border-box;
+}
+.side-bar{
+	float: left;
+	width: 20%;
+	position: fixed;
+}
+.side-bar >*{
+	padding: 10px 15px;
+}
+.main{
+	float: right;
+	width: 80%;
+	color: #454545;
+}
+.header .logo{
+	padding: 10px 20px;
+	font-size: 20px;
+	display: inline-block;
+	border: 4px solid #eee;
+	margin-bottom: 10px;
+	line-height: 1;
+}
+a,body{
+	color: #eee;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #454545;
+	line-height: 1.5;
+}
+.side-bar .nav a,
+.side-bar .tag-list a{
+	display: block;
+	padding: 5px;
+	color: #777;
+	transition: 200ms;
+}
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover{
+	color: #eee;
+}
+.side-bar .nav a{
+	font-weight: 700;
+}
+.article-list, .article{
+	margin-right: 30%;
+	background: #fff;
+	padding: 20px 30px;
+	box-shadow: 0 0 4px rgba(0,0,0,.2);
+}
+.article-list .item .title,
+.article .title{
+	font-size: 22px;
+	font-weight: 700;
+	color: #454545;
+	font-family: "楷体";
+}
+.article-list .item .status,
+.article .status{
+	font-size: 13px;
+	color: #ccc;
+}
+.article-list .item >*,
+.article >*{
+	margin: 10px 0;
+}
+.article-list .item{
+	margin-bottom: 20px;
+}
+#menu-toggle,#menu-checkbox{
+	display: none;
+}
